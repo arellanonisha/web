@@ -1,5 +1,5 @@
 <?php
 
-include_once(Sinam-it.html);
+include_once("Sinam-it.html");
 
 ?>
