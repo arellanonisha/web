@@ -4,58 +4,92 @@
 		<title>Sinam-it</title>
 		
 		<style>
-		
 		ul{
-		list-style:none;
-		margin:0;
-		padding:20;
-		background:yellow;
-		overflow:hidden;
+			list-style:none;
+			margin:0;
+			padding:20;
+			overflow:hidden;
 		}
 		
 		a:link, a:visited{
-		display:block;
-		front-weight: bold;
-		text-transform: uppercase;
-		text-decoration: none;
-		font-size: 20px;
-		font-family: sans-serif;
-		text-align: center;
-		width:180px;
-		padding:5px;
+			display:block;
+			font-weight: bold;
+			color: black;
+			font-size: 19px;
+			font-family: sans-serif;
+			width:170px;
+			padding:5px;
+			text-align: center;
+			text-transform: uppercase;
+			text-decoration: none;
 		}
 		
 		a:hover, a:active{
-		background-color: red;
+			padding: 15px;
+			border: 2px solid black;
+			border-radius: 4px;
+			background-color: yellow;
+		
 		}
 		
 		li{
-		float: left;
+			float: left;
+		}
+		
+		h1{
+			font-weight: bold;
+			color: black;
+			font-size: 30px;
+			font-family: arial;
+			width:550px;
+			padding:5px;
+			text-align: center;
+			text-transform: uppercase;
+			margin-left:1000px; 
+			margin-top: 450px;
+		}
+		
+		.button{
+			background-color: pink;
+			border: 2px solid black;
+			border-radius: 4px;
+			color: black;
+			padding: 40px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size:20px;
+			margin: 0;
+			position:absolute; 
+			right:250px; 
+			bottom:150px;
 		}
 		</style>
+		
 	</head>
-	<!HomepageBackground>
-	<body background= "background.jpg" style="background-repeat:no-repeat; background-size: 100%; background-position:center;";> 
-		
-		<!HEADER DIVISION>
-		
-			<img src="Logo.png"style="width:300px;height:80px; background-size: 100%;"/>
-
-		<div style= "margin-left:380px; margin-top: -80px; width:800px;height:80px;">
-			<ul> 
-			<li><a href="#home">HOME</a></li>
-			<li><a href="#aboutus">ABOUT US</a></li>
-			<li><a href="#products">PRODUCTS</a></li>
-			<li><a href="#contactus">CONTACT US</a></li>
-			</ul>
-		</div>
 	
+		<!HomepageBackground>
+		<body background= "../Picture/homebackground.jpg" style="background-repeat:no-repeat; background-size: 100%; background-position:center;"> 
+			<!Logo picture>
+			<img src="../Picture/Logo.png"style="width:300px;height:80px; position: center; "/>
+				
+				<!Navigation Bar>
+				<ul style= "margin-left:750px; margin-top: -80px; width:800px; height:40px;"> 
+				<li><a href="home.html">HOME</a></li>
+				<li><a href="aboutUs.html">ABOUT US</a></li>
+				<li><a href="products.html">PRODUCTS</a></li>
+				<li><a href="contactUs.html">CONTACT US</a></li>
+				</ul>
+			
+			<h1>
+			WHAT ARE YOU WAITING FOR . . .
+			</h1>
+			
+			<!Button Buy Now>
+			<a href="buy.html" class="button">
+			<b>BUY NOW
+			</a>
+		</body>
 		
-		
-	<!Button>
-	</body>
-	<button style="position:absolute; right:250px; bottom:150px; background-color: pink; font: sans-serif; font-size:30px; ">
-		BUY NOW
-		</button>
 
 </html>
